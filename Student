@@ -1,3 +1,7 @@
 public class Student {
-    public String firstName;
+	public String firstName;
+	public Student(fName)
+	{
+		firstName = fName;
+	}
 }
