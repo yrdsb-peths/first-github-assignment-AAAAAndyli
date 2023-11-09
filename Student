@@ -1,7 +1,17 @@
 public class Student {
 	public String firstName;
-	public Student(fName)
+	public int scores;
+	public Student(String fName, int scores)
 	{
 		firstName = fName;
+		this.scores = scores;	
+	}
+	public getName()
+	{
+		return firstName;
+	}
+	public getScores()
+	{
+		return scores;
 	}
 }
